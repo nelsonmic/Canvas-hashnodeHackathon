@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  color: #002651;
+}
+
+main {
+  position: absolute;
+  top: 14vh;
+  left: 10%;
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+.tool-box {
+  position: relative;
+  width: 22%;
+  padding: 1.5em;
+  background-color: #ffffff;
+  border-radius: 16px;
+  -webkit-box-shadow: -10px 10px 60px 5px rgba(0, 0, 0, 0.15);
+          box-shadow: -10px 10px 60px 5px rgba(0, 0, 0, 0.15);
+}
+
+section {
+  margin: 1em 0 0 0;
+  padding: .5em;
+}
+
+section .heading {
+  font-size: .85em;
+  margin: 0 0 1.5em 0;
+}
+
+section .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .shapes {
+  border: none;
+  background-color: #ffffff;
+  -webkit-transition: -webkit-transform 300ms linear;
+  transition: -webkit-transform 300ms linear;
+  transition: transform 300ms linear;
+  transition: transform 300ms linear, -webkit-transform 300ms linear;
+}
+
+section .shapes:hover {
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+section label {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: .75em;
+}
+
+section input[type=number] {
+  width: 60%;
+  margin-left: .75em;
+  border-width: 0 0 1.5px 0;
+}
+
+section input[type=color] {
+  border: none;
+  background-color: #ffffff;
+  width: 10%;
+}
+
+section input[type=text] {
+  width: 32%;
+  border-width: 0 0 1.5px 0;
+}
+
+.canvas-control {
+  border-top: 1.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.canvas-control div {
+  margin: 1.5em 0 0 0;
+}
+
+.canvas-control input[type=range] {
+  width: 60%;
+  height: 2px;
+  cursor: pointer;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.canvas {
+  width: 70%;
+  height: 60vh;
+  background-color: #E5E5E5;
+}
+/*# sourceMappingURL=main.css.map */
