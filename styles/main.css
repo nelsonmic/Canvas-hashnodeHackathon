@@ -7,6 +7,40 @@
   color: #002651;
 }
 
+header {
+  position: relative;
+  top: 2vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 75%;
+  margin: 0 auto;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+ul li {
+  margin: .65em 1.5em 0 0;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: .95em;
+  font-weight: 600;
+}
+
+ul li a:hover, ul li :active {
+  opacity: 0.6;
+}
+
 main {
   position: absolute;
   top: 14vh;
